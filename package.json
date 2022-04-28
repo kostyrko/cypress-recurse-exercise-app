@@ -1,16 +1,10 @@
 {
-  "name": "stubbing-spying__intercept",
+  "name": "cypress recurse exercise app",
   "version": "1.0.0",
-  "description": "Working with cy.intercept",
+  "description": "an app created to exercise cypress-recurse",
   "private": true,
   "scripts": {
-    "cypress:open": "../../node_modules/.bin/cypress open",
-    "cypress:run": "../../node_modules/.bin/cypress run",
-    "cypress:run:record": "../../node_modules/.bin/cypress run --record",
-    "dev": "../../node_modules/.bin/start-test 7080 cypress:open",
-    "start": "node server.js --port 7080",
-    "test:ci": "../../node_modules/.bin/start-test 7080 cypress:run",
-    "test:ci:record": "../../node_modules/.bin/start-test 7080 cypress:run:record"
+    "start": "node server.js --port 7080"
   },
   "dependencies": {
     "express": "^4.17.3",
