@@ -6,7 +6,7 @@ The main purpose of this app is display a list of favorite fruits.
 
 ![fruites](./images/fruits.png)
 
-You will find that this app every 5 seconds will make a request (`localhost:7080/favorite-fruits`) to the local 'server' and an array with 2 fruits will be returned. When one of this fruits is a 'date', a 'favorite' class will be applied to `h1` element changing it's font size and color.
+You will find that this app every 5 seconds will make a request (`localhost:7080/favorite-fruits`) to the local 'server' and an array with 2 fruits will be returned. When one of this fruits is a 'tomato', a 'favorite' class will be applied to `h1` element changing it's font size and color.
 
 ![date](./images/date.png)
 

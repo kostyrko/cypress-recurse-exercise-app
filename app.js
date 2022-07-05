@@ -5,8 +5,8 @@ function updateFavoriteFruits (contents) {
   if (typeof contents !== 'string') {
     contents = contents.map((item) => `<li>${item}</li>`).join('')
   }
-  if (contents.includes('Date')) {
-    console.log("it's a Date")
+  if (contents.includes('Tomato')) {
+    console.log("it's a red tomato - is it a fruit or not? who know...")
     document.querySelector('.fruits-title').classList.add("favorite")
   } else {
     document.querySelector('.fruits-title').classList.remove("favorite")
